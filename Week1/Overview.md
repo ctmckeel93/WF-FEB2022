@@ -5,7 +5,7 @@
     - Discord
     - 1:1
     - Lecture Videos
-    - Youtube Tutorials
+    - Youtube Tutorials -> freecodecamp.org
     - Discussion Questions
     - Assignments
     - Exam
@@ -65,6 +65,7 @@
         - email
         - password
         - checkboxes
+        - dropdown (select)
         - radio -> Challenge!!!
 
 # Media
