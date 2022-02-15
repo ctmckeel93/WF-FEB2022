@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 100px;
+}
+
+p {
+    margin: 50px 0px;
+}
+
+
+
+ul {
+    display: inline-block;
+    width: 800px;
+    padding: 10px;
+    /* height: 100px; */
+    /* width: 300px; */
+    color:rgb(0, 255, 170);
+    font-size: 2em;
+    background-color: rgb(39, 35, 35);
+    list-style: none;
+    /* border: size style color */
+    border: 1px solid red; 
+    /* border-radius: 50%; */
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    margin: 0px 75px;
+}
+
+.white-txt {
+    color: white;
+}
+p {
+    color: rgb(190, 26, 223);
+    font-size: 1.2em;
+}
+/* p {
+    color: gold;
+    font-size: 1.2em;
+} This will overwrite the p selector above */
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+p#aqua {
+    color:rgb(0, 255, 170);
+}
+
+#bigger {
+    height: 150px;
+}
+
+tr#blue td {
+    color: blue;
+}
+
+#gold {
+    color: gold;
+}
+
+
+/* h1 + p {
+    text-align: center;
+} */
+
+/* footer p:last-of-type {
+    font-style: italic;
+    color: rgb(0, 255, 170);
+    font-weight: bold;
+    text-decoration: underline;
+} */
