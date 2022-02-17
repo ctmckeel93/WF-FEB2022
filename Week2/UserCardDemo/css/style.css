@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    background-color: beige;
+    margin: 50px auto;
+    height: 600px;
+    width: 800px;
+}
+
+nav {
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    padding: 15px;
+}
+
+main * {
+    background-color: black;
+}
+
+img {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 20px;
+}
