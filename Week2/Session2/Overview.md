@@ -3,7 +3,7 @@
 ## Simple Data Types
     - Strings
     - Numbers (int)
-    - Boolean (true or false)
+    - Booleans (true or false)
 
 ## Variables 
     - keyword var (declaring a variable) 
