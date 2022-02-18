@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Manipulating the DOM</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ut ipsam perferendis molestiae consequatur? Exercitationem ipsum necessitatibus at saepe. Nesciunt cumque fugit enim accusantium odio magnam veritatis nemo, nihil reiciendis.
-    Tempore sunt quia quo sequi necessitatibus cum excepturi, deserunt reiciendis voluptas, eligendi ea nulla? Eligendi, adipisci amet maiores veritatis quasi, enim numquam, sapiente facilis cupiditate illum in doloremque assumenda! Voluptas.
-    Voluptas quasi distinctio vero illum laborum nemo atque animi iusto enim. Magnam repudiandae iste numquam cum tempora, quisquam unde quo porro minus aliquam similique dolorum deleniti voluptas rem voluptates perferendis?
-    Obcaecati itaque, deserunt possimus vel, consequuntur eligendi voluptates quod voluptas officia deleniti quasi odit sunt. Molestias necessitatibus id beatae itaque aspernatur dolore magni laboriosam numquam, reiciendis illo quis quo officiis.
-    Culpa quia, sapiente esse eveniet veritatis unde natus nihil illo sequi placeat aliquid provident rem labore magnam quis velit inventore magni dolorem nobis debitis maxime officiis quas nostrum aut. Iste.</p>
-
-    <select>
-        <option>Blue</option>
-        <option>Red</option>
-        <option>Green</option>
-        <option>Purple</option>
-    </select>
-
-    <button>Click Me!</button><span>0</span>
+    <div class="container">
+        <p class="paragraph" onmouseover="makeDifferentColor()" onmouseout="makeBlue()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias ut ipsam perferendis molestiae consequatur? Exercitationem ipsum necessitatibus at saepe. Nesciunt cumque fugit enim accusantium odio magnam veritatis nemo, nihil reiciendis.
+        Tempore sunt quia quo sequi necessitatibus cum excepturi, deserunt reiciendis voluptas, eligendi ea nulla? Eligendi, adipisci amet maiores veritatis quasi, enim numquam, sapiente facilis cupiditate illum in doloremque assumenda! Voluptas.
+        Voluptas quasi distinctio vero illum laborum nemo atque animi iusto enim. Magnam repudiandae iste numquam cum tempora, quisquam unde quo porro minus aliquam similique dolorum deleniti voluptas rem voluptates perferendis?
+        Obcaecati itaque, deserunt possimus vel, consequuntur eligendi voluptates quod voluptas officia deleniti quasi odit sunt. Molestias necessitatibus id beatae itaque aspernatur dolore magni laboriosam numquam, reiciendis illo quis quo officiis.
+        Culpa quia, sapiente esse eveniet veritatis unde natus nihil illo sequi placeat aliquid provident rem labore magnam quis velit inventore magni dolorem nobis debitis maxime officiis quas nostrum aut. Iste.</p>
+    
+        <select onchange="changeColor(this)">
+            <option>Blue</option>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Purple</option>
+        </select>
+    
+        <button onclick="count()">Click Me!</button><span id="counter">0</span>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
