@@ -33,8 +33,8 @@
 # Manipulating the DOM
     - Document Object Model
     - document.querySelector()
-    - events
     - innerText vs innerHTML
+    - events
     - Calling functions from the HTML
 
 

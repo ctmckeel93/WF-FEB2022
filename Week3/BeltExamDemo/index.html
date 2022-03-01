@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            
+            <ul>
+                <li><img src="images/menu_icon1.png" alt="menu icon"></li>
+                <li>Store</li>
+                <li>Blogs</li>
+                <li>Forums</li>
+                <li>Support</li>
+                <li>Contacts</li>
+            </ul>
+            <form onsubmit="displayInput()">
+                <input id="inputText" type="text">
+                <button>Search</button>
+            </form>
+        </nav>
+        <img id="main-pic" src="images/main.png" alt="Main pic">
+        <div class="main">
+            <div class="accordance-adv">
+                <h2 onmouseover="change(this)">Discover the Accordance Advantage</h2> |
+                <button onclick="changePic()">Browse the Store   >></button>
+            </div>
+            <div class="bottom">
+                <div class="blocks">
+                    <div class="subtitle">
+                        <img src="images/content_icon1.png" alt="">
+                        <h6>Video Preview</h6>
+                    </div>
+                    <p>Check out the new introductory video for Accordance 10</p>
+                    <img src="images/watch_now.png" alt="video">
+                    <button>Watch Now</button>
+                </div>
+                <div class="blocks">
+                    <div class="subtitle">
+                        <img src="images/content_icon2.png" alt="menu icon">
+                        <h6>Tour of 10</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, exercitationem eum.</p>
+                    <img src="images/take_the_tour.png" alt="menu icon">
+                    <button>Take The Tour</button>
+                </div>
+                <div id="free-trial" class="blocks">
+
+                    <div class="subtitle">
+                        <img src="images/content_icon3.png" alt="menu icon">
+                        <h6>Free Trial</h6>
+                    </div>
+
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic et asperiores fugit.</p>
+
+                    <img src="images/start_your_trial.png" alt="start trial">
+
+                    <button onclick="hide()">Start Your Trial</button>
+
+                </div>
+
+
+                <div class="blocks">
+                    <div class="subtitle">
+                        <img src="images/content_icon4.png" alt="menu icon">
+                        <h6>Ready to Buy</h6>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="images/find_products.png" alt="Find products img">
+                    <button>Find Products</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
