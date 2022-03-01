@@ -46,7 +46,8 @@
 
 
 ## References
-    - https://gist.github.com/RicardoBritoBrens/43f7945af7971671e0b413dee24babd1-> Mac commands and shortcuts
+    - [Mac Commands](https://gist.github.com/RicardoBritoBrens/43f7945af7971671e0b413dee24babd1)-> Mac commands and shortcuts
+    - [Windows Commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)-> Mac commands and shortcuts
 
 
 
