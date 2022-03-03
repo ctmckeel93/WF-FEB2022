@@ -1,0 +1,43 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    text-shadow: 2px 2px aquamarine;
+}
+
+body {
+    background-color: grey;
+}
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px; 
+    height: 800px;
+    background-color: black;
+    margin: 50px auto;
+}
+div.content {
+    text-align: center;
+    width: 500px; 
+    height: 600px;
+    background-color: seashell;
+    border: 10px solid aquamarine;
+
+}
+
+img {
+    width: 100%;
+}
+
+div.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 70%;
+}
+
+p {
+    font-weight: bolder;
+}
